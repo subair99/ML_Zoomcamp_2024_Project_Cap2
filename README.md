@@ -108,10 +108,10 @@ The advantages of using docker and kubernetes together are scalability, high ava
 After saving the model and deciciding on the tools for inferencing, the next task is to built the project by 
 starting with the virtual environment followed by the required files in the sequence shown below:
 
-> pip install pipenv
-> pipenv install tensorflow==2.16.2
-> pipenv install numpy==1.26.4
-> pipenv install pillow flask gunicorn requests keras_image_helper
-> pipenv install --dev notebook==7.2.1 ipywidgets jupyter pandas matplotlib seaborn
+> pip install pipenv  
+> pipenv install tensorflow==2.16.2  
+> pipenv install numpy==1.26.4  
+> pipenv install pillow flask gunicorn requests keras_image_helper  
+> pipenv install --dev notebook==7.2.1 ipywidgets jupyter pandas matplotlib seaborn  
 
 Then 
