@@ -60,17 +60,17 @@ Xception was selected because of its higher test accuracy
 The plot of the run of each model are shown below:
 
 ### Xception
-<p align="center">
+<p align="left">
   <img src="./images/Xception_result.jpg">
 </p>
 
 ### InceptionV3
-<p align="center">
+<p align="left">
   <img src="./images/InceptionV3_result.jpg">
 </p>
 
 ### ResNet101V2
-<p align="center">
+<p align="left">
   <img src="./images/ResNet101V_result.jpg">
 </p>
 
@@ -87,7 +87,7 @@ Xception - learning_rate = 0.0001
 
 All results were lower than the original, so it was retrained which incidentally resulted in better result as shown in the attached result:
 
-<p align="center">
+<p align="left">
   <img src="./images/Xception_final.jpg">
 </p>
 
