@@ -28,30 +28,16 @@ This project was implemented as a requirement for the completion of [Machine Lea
 
 
 ## Exploratory Data Analysis
-The dataset used in this project is the [Breast Cancer Dataset](https://www.kaggle.com/datasets/hayder17/breast-cancer-detection) from kaggle. 
+The dataset used in this project is the [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) from kaggle. 
 
-It consists of 3,383 mammogram images focused on breast tumours, annotated in a folder structure of 336 test, 2,372 train and 675 valid. The structure was modified by adding the valid folder to the train folder so that the data for the project consists of 336 test and 3,047 train.
-
-The dataset consists of images with and without tumour which are labelled 1 and 0 respectively with the distribution shown below:
-
-- No of images in  train:  0 - 2017  
-- No of images in  train:  1 - 1030  
-
-- No of images in test:  0 - 208  
-- No of images in test:  1 - 128  
-
-The diagrams below show the histogram of the class distribution, number of images per dataset and size distribution.
+It consists of 7,023 magnetic resonance imaging scans, annotated in a folder structure of 5,712 test and 1,311 train. The dataset consists of images of no tumour and brain tumor types: pituitary, meningioma, and glioma. The diagrams below show the histogram of the class distribution of training and testing data.
 
 <p align="center">
-  <img src="./images/dataset_images_distribution.jpg">
+  <img src="./images/train_data.JPG.jpg">
 </p>
 
 <p align="center">
-  <img src="./images/dataset_images_count.jpg">
-</p>
-
-<p align="center">
-  <img src="./images/dataset_size_distribution.jpg">
+  <img src="./images/test_data.JPG.jpg">
 </p>
 
 Finally, some samples of the dataset were drawn as shown below:
