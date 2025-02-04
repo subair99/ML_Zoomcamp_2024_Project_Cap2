@@ -121,3 +121,7 @@ Run the docker locally:
 </p>
 
 Check kubectl version:
+
+ <p align="center">
+  <img src="./images/cubectl_version.jpg">
+</p>
