@@ -114,4 +114,10 @@ starting with the virtual environment followed by the required files in the sequ
 > pipenv install pillow flask gunicorn requests keras_image_helper  
 > pipenv install --dev notebook==7.2.1 ipywidgets jupyter pandas matplotlib seaborn  
 
-Then 
+Run the docker locally:
+
+ <p align="center">
+  <img src="./images/docker_local.jpg">
+</p>
+
+Check kubectl version:
