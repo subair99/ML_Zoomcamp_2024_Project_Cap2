@@ -1,4 +1,4 @@
-# Breast Cancer Classification 
+# Brain Tumor Classification 
 
 <p align="center">
   <img src="./images/brain_tumor_classification.jpg">
@@ -9,20 +9,19 @@
 ## Problem Statement
 A brain tumor is a mass of abnormal cells that grows in the brain, it can be benign (non-cancerous) or malignant (cancerous). Its symptoms are:
 
-•	Headaches, which can be severe, persistent, or come and go
-•	Seizures, which can be mild or severe
-•	Weakness or paralysis in part of the body
-•	Loss of balance
-•	Changes in mood or personality
-•	Changes in vision, hearing, smell, or taste
-•	Nausea and vomiting
-•	Difficulty speaking
-•	Difficulty swallowing
+- Headaches, which can be severe, persistent, or come and go
+- Seizures, which can be mild or severe
+- Weakness or paralysis in part of the body
+- Loss of balance
+- Changes in mood or personality
+- Changes in vision, hearing, smell, or taste
+- Nausea and vomiting
+- Difficulty speaking
+- Difficulty swallowing
 
 The growth of brain tumors can cause the pressure inside the skull to increase leading to brain damage, and loss of life if not discovered early and properly treated.
 
 This project is aimed at developing a robust brain tumor detection model using Convolutional Neural Networks (CNNs) to automate the analysis of magnetic resonance imaging (MRI) scan by accurately identifying and classifying the tumors at an early stage which can reduce the load on doctors, help in selecting the most convenient treatment method and hence increase the rate of survival.
-
 
 This project was implemented as a requirement for the completion of [Machine Learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) - a free course about Machine Learning.
 
