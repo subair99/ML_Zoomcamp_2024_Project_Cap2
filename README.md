@@ -125,3 +125,9 @@ Check kubectl version:
  <p align="center">
   <img src="./images/cubectl_version.jpg">
 </p>
+
+Install kind:
+
+ <p align="center">
+  <img src="./images/kind_install.jpg">
+</p>
