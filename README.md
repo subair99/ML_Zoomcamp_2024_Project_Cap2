@@ -33,11 +33,11 @@ The dataset used in this project is the [Brain Tumor MRI Dataset](https://www.ka
 It consists of 7,023 magnetic resonance imaging scans, annotated in a folder structure of 5,712 test and 1,311 train. The dataset consists of images of no tumour and brain tumor types: pituitary, meningioma, and glioma. The diagrams below show the histogram of the class distribution of training and testing data.
 
 <p align="center">
-  <img src="./images/train_data.JPG.jpg">
+  <img src="./images/train_data.jpg">
 </p>
 
 <p align="center">
-  <img src="./images/test_data.JPG.jpg">
+  <img src="./images/test_data.jpg">
 </p>
 
 Finally, some samples of the dataset were drawn as shown below:
