@@ -49,29 +49,20 @@ Finally, some samples of the dataset were drawn as shown below:
 
 
 ## First trainings
-After conducting the exploratory data analysis, 3 pre-trained deep convolutional neural network models were used to train the data for 10 epochs each with the aim of finding the one that will return the best mean test accuracy which will then be used to create the final model.
+After conducting the exploratory data analysis, 3 pre-trained deep convolutional neural network models were used to train the data for 10 epochs each with the aim of finding the one that will return the best test accuracy which will then be used to create the final model. The results obtained with BATCH_SIZE = 32 and LEARNING_RATE = 0.001, are shown below:
 
-The results obtained with BATCH_SIZE = 64, DROP_RATE = 0.5, and LEARNING_RATE = 0.0001 are shown below:
+Xception - 98.93%
+InceptionV3 - 98.32%
+ResNet101V2 - 96.80%
 
-The Results for InceptionV3
-- Mean Train Accuracy: 0.704
-- Mean Test Accuracy: 0.6503
-- Mean Train Loss: 0.5663
-- Mean Test Loss: 0.7455
-
-The Results for ResNet101V2
-- Mean Train Accuracy: 0.703
-- Mean Test Accuracy: 0.6509
-- Mean Train Loss: 0.5776
-- Mean Test Loss: 0.6993
-
-The Results for Xception
-- Mean Train Accuracy: 0.7251
-- Mean Test Accuracy: 0.6473
-- Mean Train Loss: 0.5335
-- Mean Test Loss: 0.7709
+Xception was selected because of its higher test accuracy
 
 The plot of the run of each model are shown below:
+
+### Xception
+<p align="center">
+  <img src="./images/Xception_result.jpg">
+</p>
 
 ### InceptionV3
 <p align="center">
@@ -81,62 +72,6 @@ The plot of the run of each model are shown below:
 ### ResNet101V2
 <p align="center">
   <img src="./images/ResNet101V2_result.jpg">
-</p>
-
-### Xception
-<p align="center">
-  <img src="./images/Xception_result.jpg">
-</p>
-
-InceptionV3 was selected because its mean test accuracy is just 0.0006 less than ResNet101V2 and its runtime, which is important for sustainability, is half that of ResNet101V2. The diagrams below show the runtime of each model: 
-
-<p align="center">
-  <img src="./images/InceptionV3_runtime.jpg">
-</p>
-
-<p align="center">
-  <img src="./images/ResNet101V2_runtime.jpg">
-</p>
-
-<p align="center">
-  <img src="./images/Xception_runtime.jpg">
-</p>
-
-
-
-## Second trainings
-After selecting the pre-trained model for the project, its parameters were tuned to get better results which are listed below:
-
-InceptionV3 with BATCH_SIZE = 32
-- Mean Train Accuracy: 0.706
-- Mean Test Accuracy: 0.6542
-- Mean Train Loss: 0.5677
-- Mean Test Loss: 0.6335
-
-InceptionV3 with DROP_RATE = 0.5
-- Mean Train Accuracy: 0.7089
-- Mean Test Accuracy: 0.6622
-- Mean Train Loss: 0.5609
-- Mean Test Loss: 0.6304
-
-InceptionV3 with LEARNING_RATE = 0.00001
-- Mean Train Accuracy: 0.701
-- Mean Test Accuracy: 0.6506
-- Mean Train Loss: 0.5706
-- Mean Test Loss: 0.6987
-
-All results were higher than the original and their plots are shown below respectively:
-
-<p align="center">
-  <img src="./images/InceptionV3_result_batch.jpg">
-</p>
-
-<p align="center">
-  <img src="./images/InceptionV3_result_drop.jpg">
-</p>
-
-<p align="center">
-  <img src="./images/InceptionV3_result_learing.jpg">
 </p>
 
 
