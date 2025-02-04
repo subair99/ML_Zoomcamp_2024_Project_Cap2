@@ -76,25 +76,19 @@ The plot of the run of each model are shown below:
 
 
 
-## Final training
-The final training was conducted using all the tuning hyper-parameters and the results obtained are listed below:
+## Final trainings
+After selecting the pre-trained model for the project, its parameters were tuned to get better results which are listed below:
 
-InceptionV3 with BATCH_SIZE = 32, DROP_RATE = 0.5, LEARNING_RATE = 0.00001
-Mean Train Accuracy: 0.715
-Mean Test Accuracy: 0.6725
-Mean Train Loss: 0.5475
-Mean Test Loss: 0.6174
+Xception - learning_rate = 0.0005
+- Test Accuracy: 98.02%
 
-As expected, the result was much higher, and this can be attributed to the reasons below:
+Xception - learning_rate = 0.0001
+- Test Accuracy: 68.29%
 
-Firstly, smaller batch sizes can lead to more frequent updates, which may improve convergence speed thereby providing better accuracy, but can be computationally expensive and time-consuming. It requires less memory and can lead to better generalization due to less noise during the optimization process.
-
-Secondly, dropout prevents the network from becoming too dependent on specific neurons, which improves the model's ability to generalize to new data, it forces the network to learn more generalized representations by preventing it from relying on specific features, it can be seen as training an ensemble of smaller networks, which helps the model learn more robust features.
-
-Finally, the right learning rate will enable the model to converge on something useful while still training in a reasonable amount of time, this can be achieved by cyclical learning rate that involves letting the learning rate oscillate up and down during training, exponential decay that decreases the learning rate at an exponential rate, which can lead to faster convergence, and ReduceLROnPlateau that adjusts the learning rate when a plateau in model performance is detected. The plot of the run is shown below:
+All results were lower than the original, so it was retrained which incidentally resulted in better result as shown in the attached result:
 
 <p align="center">
-  <img src="./images/InceptionV3_final.jpg">
+  <img src="./images/Xception_final.jpg">
 </p>
 
 
