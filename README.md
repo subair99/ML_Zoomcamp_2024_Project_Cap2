@@ -71,7 +71,7 @@ The plot of the run of each model are shown below:
 
 ### ResNet101V2
 <p align="center">
-  <img src="./images/ResNet101V2_result.jpg">
+  <img src="./images/ResNet101V_result.jpg">
 </p>
 
 
