@@ -114,11 +114,13 @@ starting with the virtual environment followed by the required files in the sequ
 > pipenv install pillow flask gunicorn requests keras_image_helper  
 > pipenv install --dev notebook==7.2.1 ipywidgets jupyter pandas matplotlib seaborn  
 
+
 Run the docker locally:
 
  <p align="center">
   <img src="./images/docker_local.jpg">
 </p>
+
 
 Check kubectl version:
 
@@ -126,8 +128,40 @@ Check kubectl version:
   <img src="./images/cubectl_version.jpg">
 </p>
 
+
 Install kind:
 
  <p align="center">
   <img src="./images/kind_install.jpg">
+</p>
+
+
+## The result
+After running the containers in the docker-compose.yaml in the kubernetes directory, the result optained  are as follows:
+
+For the test1.py file with the glioma-Te-glTr_0007.jpg image the result is shown below:
+
+<p align="left">
+  <img src="./images/test_glioma.jpg">
+</p>
+
+
+For the test2.py file with the meningioma-Te-meTr_0000.jpg image the result is shown below:
+
+<p align="left">
+  <img src="./images/test_meningioma.jpg">
+</p>
+
+
+For the test3.py file with the notumor-Te-noTr_0001.jpg image the result is shown below:
+
+<p align="left">
+  <img src="./images/test_notumor.jpg">
+</p>
+
+
+For the test4.py file with the pituitary-Te-piTr_0001.jpg image the result is shown below:
+
+<p align="left">
+  <img src="./images/test_pituitary.jpg">
 </p>
